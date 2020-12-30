@@ -1,0 +1,6 @@
+-- Create a new synonym
+CREATE SYNONYM emp_syn FOR emp;
+
+
+-- Permanently remove the synonym from the database
+DROP SYNONYM emp_syn;
